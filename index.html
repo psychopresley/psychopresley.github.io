@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Covid-19 Dashboard</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <!-- Page header with subtitles -->
+   <div class="container">
+    <div class="page-header">
+        <h1>The Covid-19 Report</h1>
+         <p><em>Infos and vizzes you won't see around</em></p>
+         <hr>
+    </div>
+   </div>
+
+    <div class="container">
+      <div class="row">
+
+        <!-- AUTHOR INFO SIDEBAR -->
+
+        <div class="col-lg-3 col-md-3">
+          <div class="card" style="width: 15rem;">
+            <img src="profile_picture2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Márcio Garcia</h5>
+              <p class="card-text" style="text-align: justify">
+                Electrical Engineer graduated at Federal Univesity of Bahia (2003) and Master of Science
+                in Electrical Engineering (2008), with emphasis in Advanced Control. Expertise areas include
+                Industrial Instrumentation and Process control and automation, classical PID control,
+                Advanced control techiniques and Digital Control Systems (DCS, PLC), Python and SQL.
+
+              </p> <!-- CARD TEXT -->
+            </div>
+            <div class="card-body">
+              <div class="btn-group">
+                <a href="https://www.linkedin.com/in/garciamarcio/" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/psychopresley/COVID-19" class="btn btn-success">Github</a>
+              </div>  <!-- button group -->
+            </div> <!-- card body -->
+          </div> <!-- card -->
+        </div> <!-- col sidebar -->
+
+
+      <!-- CONTENT -->
+
+      <div class="col-lg-9 col-md-9">
+        <ul class="nav nav-tabs">
+
+          <!-- NAV TAB CONFIRMED CASES -->
+
+          <li class="nav-item" id="confirmed_cases_tab">
+            <a class="nav-link" href="#">World</a>
+          </li>
+
+          <!-- NAV TAB ACTIVE CASES -->
+
+          <li class="nav-item" id="active_cases_tab">
+            <a class="nav-link text-success" href="#">Active cases</a>
+          </li>
+
+          <!-- NAV TAB DEATH CASES -->
+
+          <li class="nav-item" id="death_cases_tab">
+            <a class="nav-link text-danger" href="#">Deaths by covid-19</a>
+          </li>
+
+          <!-- JAVASCRIPT FOR THE NAV TABS EVENTS -->
+          <script src="thecovid19report.js">
+
+          </script>
+
+        </ul> <!-- NAV TABS -->
+
+        <iframe id="tab_content" src="tab_world_report.html"  width=100%; height=100%>
+
+       </div> <!-- end CONTENT col-->
+     </div> <!-- end row-->
+   </div> <!-- end container-->
+
+  </body>
+</html>
