@@ -4,7 +4,7 @@ var death_rate_menu = document.querySelector("#death_cases_tab");
 
 general_info_menu.addEventListener('click',function(){
   var tab_content = document.querySelector("#tab_content");
-  tab_content.src = "tab_world_data.html";
+  tab_content.src = "world_data_page.html";
 
 })
 
