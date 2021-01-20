@@ -2,7 +2,7 @@ var world_data_menu = document.querySelector("#world_data_tab");
 var confirmed_cases_menu = document.querySelector("#confirmed_cases_tab");
 var active_cases_menu = document.querySelector("#active_cases_tab");
 var death_rate_menu = document.querySelector("#death_cases_tab");
-var about_the_page_menu = document.querySelector("#about_this_page_tab");
+var read_me_page_menu = document.querySelector("#read_me_page_tab");
 
 world_data_menu.addEventListener('click',function(){
   var tab_content = document.querySelector("#tab_content");
@@ -28,8 +28,8 @@ death_rate_menu.addEventListener('click',function(){
 
 })
 
-about_the_page_menu.addEventListener('click',function(){
+read_me_page_menu.addEventListener('click',function(){
   var tab_content = document.querySelector("#tab_content");
-  tab_content.src = "about_the_page.html";
+  tab_content.src = "read_me_page.html";
 
 })
