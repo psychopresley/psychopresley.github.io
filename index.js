@@ -6,6 +6,7 @@ $('p').css('text-align','justify')
 // The two functions below will auxiliate tab navigation by highlighting the
 // current tab and referencing the source content in the iframe object
 
+
 const refTable = {'active_cases_page.html':'active_cases_class',
                 'confirmed_cases_page.html':'confirmed_cases_class',
                 'death_cases_page.html':'death_cases_class',
