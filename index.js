@@ -38,5 +38,5 @@ $('.nav-link').click(function(){
 
   $('#tab_content').attr('src',newSrc);
   navSelect(refTable)
-  console.log('someone clicked on the ' + classId + ' tab')
+  console.log('someone clicked on the ' + newSrc + ' tab')
 })
